@@ -1,0 +1,16 @@
+name: "Joke Action"
+description: "Fetches a random joke and exposes it as an output"
+
+outputs:
+  joke:
+    description: "The fetched joke text"
+
+author: "Thiago Alves"
+
+runs:
+  using: node24
+  main: dist/index.js
+
+branding:
+  color: "blue"
+  icon: "cpu"
